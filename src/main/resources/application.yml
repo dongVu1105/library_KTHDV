@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: demoLibrary
+  datasource:
+    url: jdbc:mysql://localhost:3306/demo_library
+    username: root
+    password: 12345678
+  jpa:
+    hibernate:
+      ddl-auto : update
+    properties:
+      hibernate:
+        dialect : org.hibernate.dialect.MySQL8Dialect
